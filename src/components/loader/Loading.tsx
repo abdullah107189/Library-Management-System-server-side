@@ -2,7 +2,7 @@ import React from "react";
 import "./loading.css";
 const Loading = () => {
   return (
-    <>
+    <div className="loading">
       <div className="about">
         <a
           className="bg_links social portfolio"
@@ -44,7 +44,7 @@ const Loading = () => {
         </div>
         <p>loading</p>
       </div>
-    </>
+    </div>
   );
 };
 

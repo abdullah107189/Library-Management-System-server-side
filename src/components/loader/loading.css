@@ -3,11 +3,11 @@
   --cubic: cubic-bezier(0.64, 0.01, 0.07, 1.65);
   --transition: 0.6s var(--cubic);
   --size: 40px;
-  --m-01: #3c4359;
-  --m-02: #546c8c;
-  --m-03: #7ea1bf;
+  --m-01: oklch(0.5445 0.1903 259.4848);
+  --m-02: oklch(0.7857 0.1153 246.6596);
+  --m-03: oklch(0.5393 0.2713 286.7462);
   --m-04: #bacbd9;
-  --m-05: #bf80a9;
+  --m-05: oklch(0.974 0 0);
 }
 
 /* Import Google Font */
@@ -67,7 +67,12 @@
   }
 }
 
-
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 50vh);
+}
 
 /* About Section Styles */
 .about {

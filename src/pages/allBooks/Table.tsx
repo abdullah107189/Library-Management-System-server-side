@@ -58,8 +58,10 @@ const Table = () => {
 
   return (
     <div className=" px-8 mb-4 w-full flex items-center flex-col gap-5 justify-center">
-      {isLoading ? (
-        <Loading></Loading>
+      {!isLoading ? (
+        <div className="">
+          <Loading></Loading>
+        </div>
       ) : (
         <div className="w-full mx-auto p-4">
           <div className="mb-3">

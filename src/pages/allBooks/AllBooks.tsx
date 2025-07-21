@@ -2,7 +2,7 @@ import Table from "./Table";
 
 const AllBooks = () => {
   return (
-    <div>
+    <div className="">
       <Table></Table>
     </div>
   );
