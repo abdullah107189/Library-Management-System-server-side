@@ -44,7 +44,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <nav className="md:mt-5 z-50  flex items-center justify-between w-full relative rounded-full md:px-[10px] md:py-[6px] p-2 bg-card">
+    <nav className="md:mt-3 z-50  flex items-center justify-between w-full relative rounded-full md:px-[10px] md:py-[6px] p-2 bg-card">
       {/* logo */}
       <img
         src="https://i.ibb.co/0BZfPq6/darklogo.png"

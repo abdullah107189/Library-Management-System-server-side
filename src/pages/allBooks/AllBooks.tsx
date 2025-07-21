@@ -1,11 +1,11 @@
-import React from 'react';
+import Table from "./Table";
 
 const AllBooks = () => {
-    return (
-        <div>
-            This is all book here!
-        </div>
-    );
+  return (
+    <div>
+      <Table></Table>
+    </div>
+  );
 };
 
 export default AllBooks;

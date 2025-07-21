@@ -4,9 +4,11 @@ import Footer from "./components/footer/Footer";
 
 function App() {
   return (
-    <div className="mxw flex flex-col min-h-screen">
-      <Navbar />
-      <main className="grow">
+    <div className="flex flex-col min-h-screen">
+      <div className="mxw sticky top-0 z-50">
+        <Navbar />
+      </div>
+      <main className="mxw grow">
         <Outlet />
       </main>
       <Footer />

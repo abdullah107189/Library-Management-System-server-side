@@ -6,8 +6,8 @@ import { BsInstagram, BsLinkedin, BsTwitter } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <footer className="bg-card boxShadow rounded-xl w-full p-6 md:p-9 mb-2">
-      <div className="flex justify-center gap-[30px] flex-wrap w-full sm:px-32">
+    <footer className="bg-card boxShadow  p-6 md:p-9 ">
+      <div className="flex justify-center mxw gap-[30px] flex-wrap w-full sm:px-32">
         <div className="flex justify-center sm:justify-between gap-[30px] w-full flex-wrap">
           <p className="text-[0.9rem] text-muted-foreground hover:text-[#3B9DF8] cursor-pointer transition-all duration-200">
             Service
@@ -30,16 +30,16 @@ const Footer = () => {
         </div>
 
         <div className="flex items-center flex-wrap gap-[10px] text-[#424242]">
-          <a className="text-[1.3rem] p-1.5 cursor-pointer rounded-full hover:text-white hover:bg-[#3B9DF8] dark:text-[#abc2d3] transition-all duration-300">
+          <a className="text-[1.3rem] p-1.5 cursor-pointer rounded-full hover:text-accent-foreground hover:bg-accent transition-all duration-300">
             <CgFacebook />
           </a>
-          <a className="text-[1.2rem] p-1.5 cursor-pointer rounded-full hover:text-white hover:bg-[#3B9DF8] dark:text-[#abc2d3] transition-all duration-300">
+          <a className="text-[1.2rem] p-1.5 cursor-pointer rounded-full hover:text-accent-foreground hover:bg-accent transition-all duration-300">
             <BsTwitter />
           </a>
-          <a className="text-[1.2rem] p-1.5 cursor-pointer rounded-full hover:text-white hover:bg-[#3B9DF8] dark:text-[#abc2d3] transition-all duration-300">
+          <a className="text-[1.2rem] p-1.5 cursor-pointer rounded-full hover:text-accent-foreground hover:bg-accent transition-all duration-300">
             <BsInstagram />
           </a>
-          <a className="text-[1.2rem] p-1.5 cursor-pointer rounded-full hover:text-white hover:bg-[#3B9DF8] dark:text-[#abc2d3] transition-all duration-300">
+          <a className="text-[1.2rem] p-1.5 cursor-pointer rounded-full hover:text-accent-foreground hover:bg-accent transition-all duration-300">
             <BsLinkedin />
           </a>
         </div>
