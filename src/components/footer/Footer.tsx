@@ -1,6 +1,3 @@
-import React from "react";
-
-// react icons
 import { CgFacebook } from "react-icons/cg";
 import { BsInstagram, BsLinkedin, BsTwitter } from "react-icons/bs";
 
