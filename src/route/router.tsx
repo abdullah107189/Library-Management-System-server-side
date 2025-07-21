@@ -1,10 +1,17 @@
 import App from "@/App";
+import AddBook from "@/pages/addBook/AddBook";
+import AllBooks from "@/pages/allBooks/AllBooks";
 import { createBrowserRouter } from "react-router";
 
 const router = createBrowserRouter([
   {
     path: "/",
     Component: App,
+    children: [
+      { path: "/allBooks", Component: AllBooks },
+      { path: "/addBook", Component: AddBook },
+      { path: "/borrowSummary", Component: AddBook },
+    ],
   },
 ]);
 export default router;

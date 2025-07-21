@@ -109,12 +109,39 @@
   --sidebar-ring: oklch(0.646 0.222 41.116);
 }
 
-
 @layer base {
   * {
     @apply border-border outline-ring/50;
   }
   body {
     @apply bg-background text-foreground;
+  }
+}
+.mxw {
+  width: 100%;
+  padding-right: 1rem; /* 16px */
+  padding-left: 1rem; /* 16px */
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .mxw {
+    max-width: 720px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .mxw {
+    max-width: 1240px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .mxw {
+    max-width: 1440px;
   }
 }
