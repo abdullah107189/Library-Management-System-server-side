@@ -44,7 +44,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <nav className="md:mt-5 z-50  flex items-center justify-between w-full relative dark:bg-slate-900 bg-white rounded-full md:px-[10px] md:py-[5px] p-1 shadow">
+    <nav className="md:mt-5 z-50  flex items-center justify-between w-full relative rounded-full md:px-[10px] md:py-[6px] p-2 bg-card">
       {/* logo */}
       <img
         src="https://i.ibb.co/0BZfPq6/darklogo.png"
@@ -62,7 +62,7 @@ const Navbar = () => {
         <ModeToggle></ModeToggle>
 
         <CiMenuFries
-          className="text-[1.8rem] dark:text-[#abc2d3] mr-1 text-[#424242]c cursor-pointer md:hidden flex"
+          className="text-[1.8rem]  mr-1 text-[#424242]c cursor-pointer md:hidden flex"
           onClick={() => setMobileSidebarOpen(!mobileSidebarOpen)}
         />
       </div>
@@ -73,7 +73,7 @@ const Navbar = () => {
           mobileSidebarOpen
             ? "translate-x-0 opacity-100 z-10"
             : "-translate-y-[200px] opacity-0 z-[-1]"
-        } md:hidden bg-white p-4 text-center absolute top-[65px] dark:bg-slate-700 right-0 w-full sm:w-[50%] rounded-md transition-all duration-300`}
+        } md:hidden bg-white p-4 text-center absolute top-[65px] right-0 w-full sm:w-[50%] rounded-md transition-all duration-300`}
       >
         <ul className="items-center w-full gap-[20px] text-[1rem] text-gray-600 flex flex-col">
           {li}
