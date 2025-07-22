@@ -1,5 +1,4 @@
 export interface IBook extends Document {
-  _id: string;
   title: string;
   author: string;
   genre:
@@ -12,5 +11,6 @@ export interface IBook extends Document {
   isbn: string;
   description?: string;
   copies: number;
+  image: string;
   available?: boolean;
 }

@@ -57,8 +57,8 @@ const Table = () => {
   const books: IBook[] = data?.data || [];
 
   return (
-    <div className=" px-8 mb-4 w-full flex items-center flex-col gap-5 justify-center">
-      {!isLoading ? (
+    <div className="lg:px-8 px-2 mb-4 w-full flex items-center flex-col gap-5 justify-center">
+      {isLoading ? (
         <div className="">
           <Loading></Loading>
         </div>
@@ -105,7 +105,7 @@ const Table = () => {
                     </td>
                     <td className="p-3 relative">
                       {item?.available ? (
-                        <span className="px-2 rounded-full bg-accent text-accent-foreground">
+                        <span className="activeBadge">
                           Available
                         </span>
                       ) : (
